@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Domine&family=Libre+Baskerville&display=swap');
+
+
+:root {
+  /* Color variables */
+  --clr-primary: #000B1D;
+  --clr-accent: #00C6BC;
+  --clr-dark-grey: #2D3647;
+  --clr-light-grey: #8B94A8;
+  --clr-text: #5A6376;
+
+  /* Font family variables */
+  --ff-titles: "'Libre Baskerville', serif";
+  --ff-main: "'Domine', serif";
+  --ff-logo: "'Alex Brush', serif";
+}
+
+.container {
+  width: 90%;
+  max-width: min(90%, 1080px);
+  margin: 0 auto;
+}
